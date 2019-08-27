@@ -1,6 +1,6 @@
 <?php
 include("conexion.php");
-if ($_POT) {
+if ($_POST) {
   $user=$_POST['username'];
   $pass=$_POST['password'];
   $email=$_POST['email'];

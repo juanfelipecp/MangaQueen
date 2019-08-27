@@ -4,7 +4,7 @@ function conectar()
 $host="localhost";
 $user="root";
 $contra="";
-$db="MangaQueen"
+$db="mangaqueen";
 
 $connect=mysqli_connect($host,$user,$contra) or die ("error".mysql_error());
 mysqli_select_db($connect,$db);
